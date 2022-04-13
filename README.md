@@ -2,11 +2,15 @@
 
 ## Ferramentas:
 
--NestJS
--GraphQL
--Apache Kafka
--Next.js
--Apollo Client (GraphQL)
+- NestJS
+- 
+- GraphQL
+- 
+- Apache Kafka
+- 
+- Next.js
+- 
+- Apollo Client (GraphQL)
 
 ## Funcionalidades dos serviços:
 
