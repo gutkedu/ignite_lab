@@ -11,10 +11,12 @@ import { PurchasesService } from '../services/purchases.service';
 import { DatabaseModule } from '../database/database.module';
 import { CostumersService } from '../services/costumers.service';
 import { CostumersResolver } from './graphql/resolvers/costumers.resolver';
+import { MessagingModule } from '../messaging/messaging.module';
 @Module({
   imports: [
     ConfigModule.forRoot(),
     DatabaseModule,
+    MessagingModule,
     GraphQLModule.forRoot({
       driver: ApolloDriver,
       autoSchemaFile: path.resolve(process.cwd(), 'src.schema.gql'),
