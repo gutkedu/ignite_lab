@@ -10,6 +10,7 @@ import { EnrollmentResolver } from './graphql/resolvers/enrollments.resolver';
 import { StudentResolver } from './graphql/resolvers/student.resolver';
 import { CoursesService } from '../services/courses.service';
 import { EnrollmentsService } from '../services/enrollments.service';
+import { StudentsService } from '../services/students.service';
 
 @Module({
   imports: [
@@ -29,7 +30,7 @@ import { EnrollmentsService } from '../services/enrollments.service';
     //Services
     CoursesService,
     EnrollmentsService,
-    CoursesService,
+    StudentsService,
   ],
 })
 export class HttpModule {}
