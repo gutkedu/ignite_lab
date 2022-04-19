@@ -6,16 +6,18 @@ export type ApolloClientContext = GetServerSidePropsContext
 export const withApollo = (Component: NextPage) => {
   return function Provider(props: any) {
     return (
-      <ApolloProvider client={getApolloClient(props.apolloState)}>
+      <ApolloProvider client={getApolloClient(undefined, props.apolloState)}>
         <Component {...props} />
       </ApolloProvider>
     )
   }
 }
 
-export function getApolloClient(ssrCache?: NormalizedCacheObject) {
+export function getApolloClient(
+  ctx?: ApolloClientContext,
+  ssrCache?: NormalizedCacheObject) {
   const httpLink = createHttpLink({
-    uri: 'http://localhost:3332/graphql',
+    uri: 'http://localhost:3000/api',
     fetch,
   })
 
