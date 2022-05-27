@@ -43,6 +43,8 @@
 - [Auth] List courses that student has access.
 - [Auth] List course content.
 
+## Running the project
+
 ### Web
 
 ```bash
@@ -64,7 +66,7 @@ AUTH0_ISSUER_BASE_URL='https://your_auth0_domain'
 $ yarn dev
 ```
 
-### Classroom
+### classroom
 
 ```bash
 # From the project root folder access the 'web' folder
@@ -103,7 +105,7 @@ $ npm run start dev
 
 ### gateway
 
-### Make sure to have classroom and purshases running
+#### *Make sure to have classroom and purshases running
 
 ```bash
 # From the project root folder access the 'web' folder
