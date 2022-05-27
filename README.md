@@ -45,6 +45,12 @@
 
 ## Running the project
 
+### Docker
+
+```bash
+$ docker compose up
+```
+
 ### Web
 
 ```bash
