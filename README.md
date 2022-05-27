@@ -12,6 +12,18 @@
 
 ## 🔖 Frontend layout
 
+<p align="center">
+  <img alt="web frontpage" src=".github/frontpage.png" width="100%">
+</p>
+
+## GraphQL Queries
+
+Documentação de queries gerada automaticamente para os dois serviços na porta do gateway:
+
+<p align="center">
+  <img alt="/graphql" src=".github/queriesexample.png" width="100%">
+</p>
+
 ## Funcionalidades dos serviços:
 
 ### Serviço de compras (purshases)
